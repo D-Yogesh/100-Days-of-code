@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --primary-color: rgb(114, 91, 228);
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+nav .wrapper {
+    padding: 1rem;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h1 span {
+    font-weight: 100;
+}
+
+.progress-container {
+    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+#progress {
+    height: .25rem;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+}
+
+section {
+    height: 100vh;
+    background-color: var(--primary-color);
+    color: #f5f3f3;
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+section:nth-child(even) {
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
+
