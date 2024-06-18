@@ -37,8 +37,9 @@ h1 span {
 
 #progress {
     height: .25rem;
-    background-color: var(--primary-color);
+    background-color: rgb(34, 13, 138);
     border-radius: 1rem;
+    display: none;
 }
 
 section {

@@ -1,6 +1,7 @@
 let progressBar = document.getElementById('progress')
 
 const updateProgress = () => {
+    progressBar.style.display = 'block';
     let scrollPosition = document.documentElement.scrollTop;
     let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
