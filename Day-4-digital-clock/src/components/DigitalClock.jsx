@@ -15,7 +15,7 @@ const DigitalClock = () => {
         return () => clearInterval(interval)
     })
     return (
-        <div className="bg-slate-900 text-white p-10 rounded-xl text-9xl">
+        <div className="bg-gray-100 text-black p-10 rounded-xl text-9xl neumorph font-sans">
             {time}
         </div>
     )
